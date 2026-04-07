@@ -12,7 +12,7 @@ Welcome to the portfolio website of Barkın Ali Lüküslü! This project was bui
 
 ## 📸 Screenshots
 
-Here are some visual previews of the portfolio. *(Please ensure these image files are placed in `public/assets/images/` with matching filenames)*:
+Here are some visual previews of the portfolio:
 
 | Home / Hero | My Projects |
 | :---: | :---: |
