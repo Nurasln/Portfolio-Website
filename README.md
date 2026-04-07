@@ -1,6 +1,6 @@
 # Barkın Ali Lüküslü - Portfolio
 
-Welcome to my personal portfolio website! This project is built using React and Vite, showcasing my frontend development skills, projects, and professional background.
+Welcome to the portfolio website of Barkın Ali Lüküslü! This project was built using React and Vite to showcase Barkın's game development skills, projects, and professional background.
 
 ## 🚀 Technologies Used
 - **React**: Frontend UI framework
@@ -16,30 +16,26 @@ Here are some visual previews of the portfolio. *(Please ensure these image file
 
 | Home / Hero | My Projects |
 | :---: | :---: |
-| ![Hero Section](./public/assets/images/hero.png) | ![My Projects](./public/assets/images/projects.png) |
+| ![Hero Section](./frontend/public/assets/images/hero.png) | ![My Projects](./frontend/public/assets/images/projects.png) |
 
 | Project Details | Development Timeline |
 | :---: | :---: |
-| ![Project Details](./public/assets/images/project-details.png) | ![Updates Timeline](./public/assets/images/timeline.png) |
+| ![Project Details](./frontend/public/assets/images/project-details.png) | ![Updates Timeline](./frontend/public/assets/images/timeline.png) |
 
 <p align="center">
   <b>Loading Screen</b><br>
-  <img src="./public/assets/images/loading.png" alt="Loading Screen" width="500"/>
+  <img src="./frontend/public/assets/images/loading.png" alt="Loading Screen" width="500"/>
 </p>
 
 ## 📦 Project Structure
 
 ```
-├── public/              # Static assets (images, fonts, sounds, CV)
-├── src/                 # Source code
-│   ├── assets/          # Static assets loaded through JS
-│   ├── components/      # Reusable React components (Navbar, Footer, UI elements)
-│   ├── context/         # React Context providers for global state management
-│   ├── data/            # Local JSON/JS data files (mock data, content for site)
-│   ├── pages/           # Main page components (Home, Projects, etc.)
-│   ├── App.jsx          # Root component
-│   └── main.jsx         # Entry point
-└── package.json         # Project metadata and dependencies
+├── frontend/            # React/Vite Application codebase
+│   ├── public/          # Static assets (images, fonts, sounds, CV)
+│   ├── src/             # Source code
+│   │   ├── ...          # (components, pages, context, data, etc.)
+│   │   └── main.jsx     # Entry point
+│   └── package.json     # Frontend dependencies
 ```
 
 ## 🛠️ Getting Started
@@ -53,6 +49,7 @@ Make sure you have Node.js and npm installed on your machine.
 1. Clone the repository
 2. Install the dependencies:
    ```bash
+   cd frontend
    npm install
    ```
 3. Run the development server:
@@ -65,10 +62,11 @@ Make sure you have Node.js and npm installed on your machine.
 To create a production build of the project, run:
 
 ```bash
+cd frontend
 npm run build
 ```
 
 This will generate a `dist` folder populated with the optimized files ready for deployment.
 
 ## 📄 License
-This project is for personal use as a portfolio.
+This project is for use as Barkın Ali Lüküslü's personal portfolio.
